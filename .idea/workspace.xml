@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecbda701-29ca-4df4-a89f-d0612c97287c" name="Changes" comment="8 - Listar produtos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/teste/Atualizar.java" afterDir="false" />
+    <list default="true" id="ecbda701-29ca-4df4-a89f-d0612c97287c" name="Changes" comment="9 - Editar descrição do produto">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/teste/Deletar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/dao/ProdutoDao.java" afterDir="false" />
     </list>
@@ -41,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Atualizar.executor": "Run",
+    "Application.Deletar.executor": "Run",
     "Application.Listar.executor": "Run",
     "Application.Principal.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -122,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709699590107</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="9 - Editar descrição do produto">
+      <option name="closed" value="true" />
+      <created>1709702736116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709702736116</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +166,7 @@
     <MESSAGE value="6 - Mapear as Entidades para Tabelas" />
     <MESSAGE value="7 - Cadastrar novo produto e fabricante" />
     <MESSAGE value="8 - Listar produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 - Listar produtos" />
+    <MESSAGE value="9 - Editar descrição do produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="9 - Editar descrição do produto" />
   </component>
 </project>

@@ -25,4 +25,9 @@ public class ProdutoDao {
         Produto p = this.em.find(Produto.class, 1);
         p.setDescricao("Descricao do produto atualizada pela JPA");
     }
+
+    public void deletarProduto(){
+        Produto p = this.em.find(Produto.class, 6);
+        em.remove(p);
+    }
 }
