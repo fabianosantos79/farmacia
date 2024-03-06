@@ -45,6 +45,5 @@ public class Principal {
         em.getTransaction().commit();
         em.close();
         System.out.println("Pronto");
-
     }
 }
