@@ -20,4 +20,9 @@ public class ProdutoDao {
         String jpql = "SELECT p FROM Produto p";
         return em.createQuery(jpql, Produto.class).getResultList();
     }
+
+    public void atualizarDescricao(Produto produto){
+        Produto p = this.em.find(Produto.class, 1);
+        p.setDescricao("Descricao do produto atualizada pela JPA");
+    }
 }

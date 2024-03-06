@@ -39,6 +39,7 @@ public class Principal {
         produtoDao.cadastrarProduto(prod4);
         produtoDao.cadastrarProduto(prod5);
         produtoDao.cadastrarProduto(prod6);
+        produtoDao.atualizarDescricao(prod1);
         em.getTransaction().commit();
         em.close();
         System.out.println("Pronto");
