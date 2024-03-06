@@ -30,4 +30,5 @@ public class ProdutoDao {
         Produto p = this.em.find(Produto.class, 6);
         em.remove(p);
     }
+
 }

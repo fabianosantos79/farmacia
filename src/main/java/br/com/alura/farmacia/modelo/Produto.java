@@ -14,6 +14,7 @@ public class Produto {
     private double preco;
     @ManyToOne
     private Fabricante fabricante;
+    private boolean ativo;
 
     public Produto() {
     }
