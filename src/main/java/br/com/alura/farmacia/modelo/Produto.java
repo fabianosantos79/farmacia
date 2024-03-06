@@ -15,6 +15,16 @@ public class Produto {
     @ManyToOne
     private Fabricante fabricante;
 
+    public Produto() {
+    }
+
+    public Produto(String nome, String descricao, double preco, Fabricante fabricante) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.preco = preco;
+        this.fabricante = fabricante;
+    }
+
     public String getNome() {
         return nome;
     }
