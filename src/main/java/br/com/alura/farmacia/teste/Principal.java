@@ -40,6 +40,8 @@ public class Principal {
         produtoDao.cadastrarProduto(prod5);
         produtoDao.cadastrarProduto(prod6);
         produtoDao.atualizarDescricao(prod1);
+        Produto produto1 = em.find(Produto.class, 1);
+        System.out.println("Produto 1 preço = " + produto1.getPreco());
         em.getTransaction().commit();
         em.close();
         System.out.println("Pronto");
