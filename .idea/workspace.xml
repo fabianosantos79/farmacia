@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecbda701-29ca-4df4-a89f-d0612c97287c" name="Changes" comment="6 - Mapear as Entidades para Tabelas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/dao/FabricanteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/dao/ProdutoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/teste/Principal.java" afterDir="false" />
+    <list default="true" id="ecbda701-29ca-4df4-a89f-d0612c97287c" name="Changes" comment="7 - Cadastrar novo produto e fabricante">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/teste/Listar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/modelo/Fabricante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/modelo/Fabricante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/modelo/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/farmacia/dao/ProdutoDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709696092784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7 - Cadastrar novo produto e fabricante">
+      <option name="closed" value="true" />
+      <created>1709699114014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709699114014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +145,7 @@
     <MESSAGE value="4 - Criar o arquivo de configuração - persistence.xml e classe Produto" />
     <MESSAGE value="5 - Criar a Tabela de Produto e Fabricante" />
     <MESSAGE value="6 - Mapear as Entidades para Tabelas" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 - Mapear as Entidades para Tabelas" />
+    <MESSAGE value="7 - Cadastrar novo produto e fabricante" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 - Cadastrar novo produto e fabricante" />
   </component>
 </project>
